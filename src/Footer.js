@@ -14,7 +14,7 @@ export default function Footer() {
       </a>{" "}
       and is{" "}
       <a
-        href="https://github.com/elvgillan/my-weather-app"
+        href="https://github.com/elvgillan/weather-react"
         target="_blank"
         rel="noreferrer"
       >
@@ -22,7 +22,7 @@ export default function Footer() {
       </a>{" "}
       and{" "}
       <a
-        href="https://dreamy-visvesvaraya-8d7417.netlify.app/"
+        href="https://prismatic-melomakarona-ab7f07.netlify.app/"
         target="_blank"
         rel="noreferrer"
       >
