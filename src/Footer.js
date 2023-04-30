@@ -19,14 +19,6 @@ export default function Footer() {
         rel="noreferrer"
       >
         open-sourced on GitHub
-      </a>{" "}
-      and{" "}
-      <a
-        href="https://prismatic-melomakarona-ab7f07.netlify.app/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        hosted on Netlify
       </a>
     </div>
   );
