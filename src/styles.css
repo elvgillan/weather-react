@@ -1,0 +1,94 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #ededed;
+}
+.main {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 600px;
+  border: 1px solid #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #262626;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+}
+
+h1 {
+  text-align: left;
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+}
+
+h2 {
+  text-align: left;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.units {
+  font-size: 15px;
+  position: relative;
+  top: -43px;
+}
+
+ul {
+  list-style: none;
+  padding-top: 30px;
+  font-size: 16px;
+  padding-left: 35px;
+}
+
+h1 {
+  opacity: 0.9;
+}
+
+h2,
+ul {
+  opacity: 0.7;
+}
+
+a {
+  color: #262626;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #ec6e4c;
+  transition: all 200ms ease-in-out;
+}
+
+.weatherForecast {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: 000;
+  font-size: 13px;
+}
+.weatherForecastDay,
+.weatherForecastTemperaturesHigh {
+  opacity: 0.6;
+}
+
+.weatherForecastDay {
+  font-size: 16px;
+}
+
+.weatherForecastTemperaturesHigh {
+  font-weight: bolder;
+}
+
+.weatherForecastTemperaturesLow {
+  opacity: 0.5;
+}

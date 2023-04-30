@@ -1,0 +1,17 @@
+.search {
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+  margin: 0 auto;
+}
+
+.btn-one {
+  background-color: #ec6e4c;
+  margin: 0 auto;
+}
+
+.btn-one:hover {
+  background: #f6b7a6;
+  color: #fff;
+  transition: all 200ms ease-in-out;
+}

@@ -1,17 +1,42 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import Search from "./Search";
+import City from "./City";
+import DateDescription from "./DateDescription";
+import Icon from "./Icon";
+import CurrentTemp from "./CurrentTemp";
+import Conditions from "./Conditions";
+import Footer from "./Footer";
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <StrictMode>
+    <div className="App">
+      <div className="container">
+        <div className="main">
+          <Search />
+          <City />
+          <DateDescription />
+          <div className="row todayResults">
+            <div className="col-2">
+              <Icon />
+            </div>
+            <div className="col-4 todayTemp">
+              <CurrentTemp />
+            </div>
+            <div className="col-6">
+              <Conditions />
+            </div>
+          </div>
+          <div className="weatherForecast" id="forecast"></div>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  </StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
